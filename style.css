@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 100%;
+    font-weight: inherit;
+}
+
+body {
+    background: #005eff;
+    color: white;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* PAGE */
+.text {
+    font-family: "Chivo", sans-serif;
+    font-size: 4vw;
+    line-height: 4vw;
+    -webkit-font-variant-ligatures: normal;
+            font-variant-ligatures: normal;
+}
+
+h1 {
+    font: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+}
+
+.text p,
+h1 {
+    opacity: 0;
+    -webkit-animation: fadein .2s forwards ease-out;
+            animation: fadein .2s forwards ease-out;
+    padding: 1.8vw 10vw 2.7vw 2.7vw;
+}
+
+.text a {
+    text-decoration: underline;
+    -webkit-text-decoration-skip: ink;
+            text-decoration-skip: ink;
+    color: inherit;
+    padding-left: .5vw;
+    padding-right: .5vw;
+    margin-left: -.5vw;
+    margin-right: -.5vw;
+    cursor: pointer;
+}
+
+.text a:hover {
+    text-decoration: none;
+}
+
+.text a:focus {
+    text-decoration: none;
+    outline: solid 4px rgba(0, 0, 0, .4);
+}
+
+::-moz-selection {
+    background: #000;
+    background: rgba(0, 0, 0, .99);
+    color: #fff;
+}
+
+::selection {
+    background: #000;
+    background: rgba(0, 0, 0, .99);
+    color: #fff;
+}
+
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+        margin-top: 1.5vw;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        margin-top: 1.5vw;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
