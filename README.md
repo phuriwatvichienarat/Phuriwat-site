@@ -1,5 +1,5 @@
 # Francesco Imola's site
-Access at https://francescoimola.github.io/site/
+Access at francescoimola.com
 
 This is a placeholder personal website built using [Temper](https://temper.one/). 
 
