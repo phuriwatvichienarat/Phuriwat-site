@@ -1,6 +1,3 @@
-# Francesco Imola's site
-Access at https://francescoimola.com
+# Phuriwat Vichienarat's site
+Built using [Temper](https://temper.one/). 
 
-This is a placeholder personal website built using [Temper](https://temper.one/). 
-
-Hang in there—a whole new web experience is coming soon.
